@@ -84,6 +84,29 @@
                 counter-stereotypic evidence and whether explicit correction transfers to
                 open-ended generation.
               </p>
+              <details class="abstract-details">
+                <summary>Abstract</summary>
+                <p>
+                  Recent work shows that context can both amplify and mitigate social bias in
+                  LLMs. Yet a key question remains underexplored: when context provides
+                  counter-stereotypic evidence, is that evidence taken up equitably across
+                  demographic targets? Using agency-communality bias as a testbed, we introduce
+                  a sequential evaluation framework that holds total counter-evidence fixed
+                  while varying its evidence structure, adapting the bookkeeping-subtyping
+                  contrast from social cognition. Across three instruction-tuned LLMs evaluated
+                  in English, counter-evidence is taken up in explicit group-level judgement and
+                  transfers to explicit judgement about held-out individuals. The prior-category
+                  structure of this uptake, however, does not carry over to generation:
+                  communal-prior targets lose their correction advantage, absorb evidence more
+                  slowly, and the weakest uptake repeatedly appears for Asian and Hispanic female
+                  targets within our controlled target set. The tested prompt instruction and DPO
+                  fine-tuning variants yield partial improvements at prior-category level but do
+                  not reliably repair these target-level gaps. These findings show that fairness
+                  audits for context-rich LLM systems should go beyond checking whether corrective
+                  evidence is present and test whether models use that evidence equitably in
+                  downstream generation.
+                </p>
+              </details>
               <a class="text-link" href="papers/counter-stereotypic-evidence-emnlp-2026.pdf" target="_blank" rel="noreferrer">Paper</a>
               <a class="text-link" href="https://github.com/lily-wu1207/stereotype-uptake" target="_blank" rel="noreferrer">Code and data</a>
             </div>
@@ -100,6 +123,23 @@
                 Stereotype Content Model and Thurstonian modeling, with representation probing,
                 attention-head analysis, and activation steering.
               </p>
+              <details class="abstract-details">
+                <summary>Abstract</summary>
+                <p>
+                  Most stereotype audits for LLMs use isolated ratings or task-specific probes,
+                  making it difficult to connect observed outputs to an underlying theory or
+                  internal organization. SCoUT (Stereotype Content-oriented Utility structure via
+                  Thurstonian modeling) addresses this gap with a closed-loop framework for
+                  modeling, probing, and steering the warmth and competence dimensions of
+                  stereotypes. It reconstructs a global utility structure through Thurstonian
+                  comparisons, achieves strong preference-prediction accuracy and cross-model
+                  agreement, and identifies attention heads associated with these dimensions.
+                  Targeted activation changes at inference time then shift outputs along the
+                  intended axes. By connecting behavioral measurement, internal representations,
+                  and controllable interventions, SCoUT moves stereotype auditing from surface
+                  detection toward structural analysis.
+                </p>
+              </details>
               <a class="text-link" href="https://ojs.aaai.org/index.php/AAAI/article/view/39905/43866" target="_blank" rel="noreferrer">Paper</a>
             </div>
           </article>
